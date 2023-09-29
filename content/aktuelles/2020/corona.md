@@ -1,7 +1,7 @@
 +++
 title = 'Corona'
 date = 2020-09-20T19:29:02+02:00
-draft = true
+draft = false
 +++
 
 Meine Praxis ist geöffnet. 
