@@ -1,0 +1,8 @@
+
+
+<img
+    src="{{ .Get "src" }}"
+    alt="{{ .Get "alt" }}"
+    class="{{ with .Get "pos" }}{{ if eq "right" . }}f-r ml-100{{ else if eq "left" . }}f-l mr-100{{ end }}{{ end }}"
+    {{ with .Get "max-width" }}style="max-width: {{ . }};"{{ end }}
+>

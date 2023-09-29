@@ -1,0 +1,13 @@
+{{ define "main" }}
+    <main>
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+        {{ range .Pages.ByDate.Reverse }}
+            <article>
+                <h2>{{ .Title }}</h2>
+                <div>{{ .PublishDate | time.Format ":date_long" }}</div>
+                <div>{{ .Content }}</div>
+            </article>
+        {{ end }}
+    </main>
+{{ end }}

@@ -1,0 +1,19 @@
+<header class="r">
+    <a href="/">
+        <img src="/logo.webp" alt="Logo" class="logo">
+    </a>
+    <nav id="header-nav">
+        <label id="header-nav-toggle">
+            <input type="checkbox">
+            <div id="header-nav-icon">
+                <span id="header-nav-icon-1"></span>
+                <span id="header-nav-icon-2"></span>
+                <span id="header-nav-icon-3"></span>
+            </div>
+        </label>
+        {{ $current := . }}
+        <ul id="header-nav-list">{{ range site.Menus.header }}
+            <li><a href="{{ .URL }}" {{ if $current.IsMenuCurrent "header" . }} class="active" {{ end }}>{{ .Name }}</a></li>
+        {{ end }}</ul>
+    </nav>
+</header>

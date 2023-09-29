@@ -1,0 +1,7 @@
+{{ with .Get "title" }} <h2>{{ . }}</h2> {{ end }}
+<iframe
+    {{ with .Get "width" }} width="{{ . }}"{{ end }}
+    {{ with .Get "height" }} height="{{ . }}"{{ end }}
+    {{ with .Get "src" }} src="{{ . }}"{{ end }}
+    {{ with .Get "max-width" }} style="max-width:{{ . }};"{{ end }}
+></iframe>
