@@ -9,8 +9,8 @@ menu = 'header'
 
 ### Entspannungsmassage ohne Anamnese und Dokumentation
 
-|                              |         |
-|------------------------------|---------|
+|                                |         |
+|--------------------------------|---------|
 | Dauer 60 Min. (inkl. Ruhezeit) | 70 Euro |
 | Dauer 30 Min. (inkl. Ruhezeit) | 35 Euro |
 
