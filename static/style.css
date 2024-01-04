@@ -19,13 +19,12 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    overflow-x: hidden; /* hide header nav's scroll */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url(bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    background-attachment: fixed;
+    background-attachment: fixed; /*trouble on mobile!?*/
 }
 
 header {
@@ -249,6 +248,9 @@ td:first-child {
     }
     #header-nav-list {
         flex-direction: column;
+    }
+    #header-nav-toggle:has(input:checked) ~ #header-nav-list {
+        margin-bottom: 4em;
     }
     #header-nav-list>li {
         opacity: 0;
