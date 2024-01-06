@@ -1,4 +1,9 @@
 
+[[redirects]]
+from = "/"
+to = "/fussreflexzonentherapie"
+status = 308
+
 [build]
 command = "hugo"
 publish = "public"
