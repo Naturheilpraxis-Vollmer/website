@@ -238,6 +238,9 @@ td:first-child {
 }
 
 @media screen and (max-width: 768px) {
+    header {
+        justify-content: space-between;
+    }
     header nav {
         flex-direction: column;
         align-items: flex-end;
