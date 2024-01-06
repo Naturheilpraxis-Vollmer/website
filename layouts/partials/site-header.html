@@ -14,8 +14,12 @@
             </div>
         </label>
         {{ $current := . }}
-        <ul id="header-nav-list">{{ range site.Menus.header }}
-            <li><a href="{{ .URL }}" {{ if $current.IsMenuCurrent "header" . }} class="active" {{ end }}>{{ .Name }}</a></li>
-        {{ end }}</ul>
+        <ul id="header-nav-list">
+            {{ range site.Menus.header.ByWeight.Reverse }}
+            <li>
+                <a href="{{ .URL }}" {{ if $current.IsMenuCurrent "header" . }} class="active" {{ end }}>{{ .Name }}</a>
+            </li>
+            {{ end }}
+        </ul>
     </nav>
 </header>

@@ -5,4 +5,4 @@ draft = false
 menu = 'footer'
 +++
 
-TODO
+Es werden keine Daten erhoben.

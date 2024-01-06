@@ -30,8 +30,9 @@ body {
 header {
     position: sticky;
     top: 0;
-    justify-content: space-between;
-    /*align-items: center;*/
+    justify-content: center;
+    /*gap: 2em;*/
+    align-items: center;
     background-color: var(--color-bg);
     backdrop-filter: blur(0.2rem);
     z-index: 99;
@@ -45,6 +46,7 @@ footer {
 footer nav {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 iframe {

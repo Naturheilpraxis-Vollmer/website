@@ -3,6 +3,7 @@ title = 'Fußreflexzonentherapie'
 date = 2023-09-20T19:29:02+02:00
 draft = false
 menu = 'header'
+weight = 200
 +++
 
 Die Fußreflexzonentherapie (RZF) nach Hanne Marquardt ist eine ganzheitliche Heilmethode, die sich regulierend auf alle Ebenen des Menschen ( körperlich, geistig und emotional ) auswirkt und die Abwehrkräfte stärkt. Sie gehört zu den komplementären/ alternativen Heilmethoden.

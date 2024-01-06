@@ -1,9 +1,9 @@
 <footer>
+    <span class="sr">Footer Menu</span>
+    {{ $current := . }}
     <nav>
         {{ range site.Menus.footer }}
-            <a href="{{ .URL }}">
-                {{ .Name }}
-            </a>
+        <a href="{{ .URL }}" {{ if $current.IsMenuCurrent "footer" . }} class="active" {{ end }}>{{ .Name }}</a>
         {{ end }}
     </nav>
 </footer>

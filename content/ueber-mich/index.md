@@ -3,6 +3,7 @@ title = 'Was genau ist ein Heilpraktiker?'
 date = 2023-09-20T19:29:02+02:00
 draft = false
 menu = 'header'
+weight = 50
 +++
 
 Als Heilpraktikerin habe ich eine amtliche Erlaubnis, Menschen in heilender Absicht zu behandeln.

@@ -5,7 +5,9 @@
         {{ range .Pages.ByDate.Reverse }}
             <article>
                 <h2>{{ .Title }}</h2>
-                <div>{{ .PublishDate | time.Format ":date_long" }}</div>
+                {{ if isset .Params "date" }}
+                    <div>{{ .Date | time.Format ":date_long" }}</div>
+                {{ end }}
                 <div>{{ .Content }}</div>
             </article>
         {{ end }}
