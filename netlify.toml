@@ -3,6 +3,7 @@
 from = "/"
 to = "/fussreflexzonentherapie"
 status = 308
+force = true
 
 [build]
 command = "hugo"
