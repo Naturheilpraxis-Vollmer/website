@@ -11,7 +11,7 @@
 */
 
 * {
-    word-break: break-all;
+    overflow-wrap: break-word;
 }
 
 html {
@@ -89,6 +89,10 @@ nav a.active {
 
 img {
     width: 100%;
+}
+
+p {
+    text-align: justify;
 }
 
 td {
