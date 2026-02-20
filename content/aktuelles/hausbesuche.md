@@ -1,5 +1,5 @@
 +++
-title = 'Hausbesuche'
+title = ''
 draft = false
 +++
 
