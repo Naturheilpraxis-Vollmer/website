@@ -3,4 +3,11 @@ title = 'Hausbesuche'
 draft = false
 +++
 
-Ich biete zur Zeit ausschließlich Hausbesuche an.
+Meine Praxis befindet sich: 
+
+Auf der Hohen Fuhr 21
+
+53809 Ruppichteroth
+
+Ich biete auch Hausbesuche an.
+Beratungsgespräche und MET Sitzungen können nach verheriger Bezahlung online über Zoom erfolgen.
