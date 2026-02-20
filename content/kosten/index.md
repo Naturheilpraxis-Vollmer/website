@@ -7,24 +7,10 @@ weight = 10
 +++
 
 ## Fußreflexbehandlung
-
-### Entspannungsmassage ohne Anamnese und Dokumentation
-
-|                                |         |
-|--------------------------------|---------|
-| Dauer 60 Min. (inkl. Ruhezeit) | 70 Euro |
-| Dauer 30 Min. (inkl. Ruhezeit) | 35 Euro |
-
-### Heilpraktische Massage:
-
-|                                                                           |         |
-|---------------------------------------------------------------------------|---------|
-| Erstanamnese als Vorbereitung einer Behandlungsserie, Dauer etwa 90 Min.  | 90 Euro |        
-| Folgebehandlung einzeln, Dauer etwa 50-60 Min (inkl. Ruhezeit)            | 60 Euro |
-| Bei mindestens 5 Folgebehandlungen je Behandlung                          | 50 Euro |
+Massage pro Stunde: 90 Euro                                                                    
 
 ## Andere Behandlungen oder Beratungen
-Die Kosten orientieren sich an etwa 70 Euro pro Stunde, abhängig von dem Zeitaufwand und Materialverbrauch.
+MET Sitzungen pro Stunde: 120 Euro
 
 ## Weitere Informationen
 
